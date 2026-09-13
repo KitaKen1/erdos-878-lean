@@ -1,0 +1,17 @@
+name = "erdos_878_lean4web"
+version = "0.1.0"
+defaultTargets = ["Erdos878Lean4Web"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.34.0-rc2"
+
+[[lean_lib]]
+name = "Erdos878Lean4Web"
+roots = [
+  "PartsILean4Web",
+  "PartsIILean4Web",
+  "ProposedFirstQuestionSharpLean4Web",
+  "OriginalFormula17Lean4Web",
+]

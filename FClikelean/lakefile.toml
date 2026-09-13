@@ -1,0 +1,12 @@
+name = "erdos_878_fclike"
+version = "0.1.0"
+defaultTargets = ["Erdos878"]
+
+[[require]]
+name = "formal_conjectures"
+git = "https://github.com/google-deepmind/formal-conjectures"
+rev = "205d301d60d01a2a432cbea611f9383cd08f9065"
+
+[[lean_lib]]
+name = "Erdos878"
+roots = ["Erdos878"]

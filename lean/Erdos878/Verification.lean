@@ -1,0 +1,42 @@
+import Erdos878.CertificateAudit
+import Erdos878.MatchingAsymptotic
+import Erdos878.SharpFirstAsymptotic
+import Erdos878.FixedLoss
+import Erdos878.SharpWindowTrackA
+import Erdos878.SharpThresholdNormalOrder
+import Erdos878.SharpWindowAdjustable
+import Erdos878.TrackBEndpointParameters
+
+/-!
+# Kernel dependency audit
+
+These commands expose the axioms of the rejected-route proofs, the replacement matching
+interface, the source-block result, the unconditional fixed-loss answer to the first question,
+the sharp coefficient-`1/2` answer, and the kernel-verified ordinary maximal-order candidate for
+the second question. The sharp formula-(17) addendum remains a separate target.
+-/
+
+#print axioms Erdos878.not_prefix_prime_power_moment_certificate
+#print axioms Erdos878.not_selected_reciprocal_mass_certificate
+#print axioms Erdos878.paired_card_add_unused_eq_omega
+#print axioms Erdos878.proposed_first_question_sharp_of_matching_deficits
+#print axioms Erdos878.exists_density_one_F_div_scale_eventually_gt_of_lt_half
+#print axioms Erdos878.exists_density_one_F_div_scale_tendsto_half
+#print axioms Erdos878.proposed_first_question_sharp
+#print axioms Erdos878.exists_density_one_f_div_scale_littleO_of_source_blocks
+#print axioms Erdos878.eventually_tight_report_scalar_bound_on_nat
+#print axioms Erdos878.eventually_reportPrimeWindowEndpointMass_ge_loglog
+#print axioms Erdos878.erdos_878_first_question
+#print axioms Erdos878.reciprocal_prime_mertens_bounded_error
+#print axioms Erdos878.reportPrimeWindowEndpointMass_bounded_error
+#print axioms Erdos878.exists_density_one_F_div_scale_ge_one_div_sixteen_exp
+#print axioms Erdos878.sharp_window_trackA_coefficient_lt_one_twelfth
+#print axioms Erdos878.tendsto_divisorCount_exceptionalRatio_zero_of_primeReciprocal_adjustable
+#print axioms Erdos878.exists_density_one_F_div_scale_ge_nine_div_sixtyfour_exp
+#print axioms Erdos878.erdos_878_first_question_via_adjustable_windows
+#print axioms Erdos878.adjustable_sharp_window_coefficient_lt_one_third
+#print axioms Erdos878.TrackB.vaughan_identity_function
+#print axioms Erdos878.TrackB.vaughan_weighted_sum
+#print axioms Erdos878.TrackB.weightedArithmeticSum_vaughanTypeII
+#print axioms Erdos878.TrackB.second_question_of_concreteEndpoints
+#print axioms Erdos878.TrackB.erdos_878_parts_ii_proved
